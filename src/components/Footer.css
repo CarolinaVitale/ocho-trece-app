@@ -1,0 +1,162 @@
+.footer-container {
+    background-color: #242424;
+    padding: 4rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* info */
+.info {
+    max-width: 50vw;
+    width: 100%;
+}
+
+.info-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    max-width: 50vw;
+    margin: 40px auto 0 auto;
+}
+
+.website-info {
+    color: #C3C5C7;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: "futura";
+    letter-spacing: 0.1em;
+}
+
+/* privacy */
+.privacy {
+    max-width: 95vw;
+    width: 100%;
+}
+
+.privacy-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.website-privacy {
+    margin-bottom: 8px;
+    font-family: "futura";
+    color: #C3C5C7;
+    text-decoration: none;
+}
+
+.info-privacy {
+    font-family: "futura";
+    color: #C3C5C7;
+    text-decoration: none;
+}
+
+.info-privacy:hover {
+    color: #929139;
+}
+
+/* Social Icons */
+.social-icon-link {
+    color: #C3C5C7;
+    font-size: 24px;
+}
+
+.social-media {
+    max-width: 90%;
+    width: 100%;
+}
+
+.social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 40px auto 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.social-logo {
+    color: #C3C5C7;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.website-rights {
+    color: #C3C5C7;
+    font-size: 14px;
+    margin-bottom: 8px;
+    letter-spacing: 0.1em;
+    font-family: 'Futura';
+}
+
+.website-info a {
+    text-decoration: none;
+    color: #C3C5C7;
+}
+
+@media screen and (max-width: 820px) {
+
+    .social-media-wrap {
+        flex-direction: column;
+        max-width: 90vw;
+    }
+
+    .website-rights {
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .info-wrap {
+        flex-direction: column;
+        max-width: 90vw;
+    }
+
+    .info {
+        max-width: 90vw;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+
+.created-by {
+    padding: 10px 0;
+    text-align: center;
+    color: #797979;
+    font-family: 'Futura';
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.created {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #494949;
+    width: 100%;
+}
+
+.created a {
+    text-decoration: none;
+    color: #797979;
+}

@@ -1,0 +1,66 @@
+/* 
+oyster mushroom #424446
+black oyster #C3C5C7
+perfect pear #929139
+nugget gold #CB952B 
+*/
+
+.scroll-animation-container {
+    background-color: #f6f4f4;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    padding: 2%;
+    text-align: center;
+    width: 50%;
+    font-family: "Le Jeune Stencil";
+    color: #424446;
+}
+
+.text-container p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: "futura";
+    letter-spacing: 0.1em;
+    color: #424446;
+}
+
+.image-container {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.image-container img {
+    max-height: 100%;
+    width: 100%;
+}
+
+.text {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 960px) {
+    .scroll-animation-container {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container {
+        width: 100%;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .image-container {
+        width: 100%;
+        padding-bottom: 20%;
+    }
+}

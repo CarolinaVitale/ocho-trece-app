@@ -1,0 +1,111 @@
+.catering-form {
+    background-color: white;
+}
+
+.catering-form h1 {
+    font-family: "Le Jeune Stencil";
+    text-align: center;
+}
+
+.catering-container {
+    display: flex;
+}
+
+.catering-form {
+    padding: 50px 150px;
+}
+
+.catering-form input[type="text"],
+.catering-form input[type="tel"],
+.catering-form input[type="email"],
+.catering-form textarea {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.catering-form input:focus,
+.catering-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.catering-form textarea {
+    height: 150px;
+}
+
+/* b u t t o n */
+.catering-form input[type="submit"] {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    width: 100%;
+    padding: 20px;
+    background-color: #424446;
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.catering-form input[type="submit"]:hover {
+    background-color: #1d1e1f;
+}
+
+/* e n d   b u t t o n */
+
+/*   s u c c e s s  m e s s a g e   */
+.catering-success-message {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background-color: #424446;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    animation: fadeInOut ease-in-out;
+}
+
+@keyframes fadeInOut {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*   s u c c e s s  m e s s a g e   */
+
+
+/*   m o b i l e   */
+@media (max-width: 768px) {
+    .catering-form {
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    .catering-success-message {
+        top: 150px;
+        font-size: 20px;
+        width: 100%;
+        right: 0;
+        left: 0;
+        position: 0;
+    }
+}
+
+/*   m o b i l e   */

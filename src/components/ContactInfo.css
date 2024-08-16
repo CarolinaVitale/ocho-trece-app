@@ -1,0 +1,61 @@
+/* 
+oyster mushroom #424446
+black oyster #C3C5C7
+perfect pear #929139
+nugget gold #CB952B 
+*/
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: #424446;
+    padding-top: 70px;
+    padding-bottom: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -90px;
+}
+
+.contact-address h3,
+.contact-phone h3,
+.contact-mail h3 {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    color: #C3C5C7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-address p,
+.contact-phone p,
+.contact-mail p {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    color: #C3C5C7;
+}
+
+.contact-address a,
+.contact-phone a,
+.contact-mail a {
+    text-decoration: none;
+}
+
+.contact-address i,
+.contact-phone i,
+.contact-mail i {
+    color: #C3C5C7;
+}
+
+
+@media (max-width: 768px) {
+    .contact-info {
+        display: block;
+    }
+
+    .contact-phone {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+}

@@ -1,38 +1,72 @@
-.App {
+/* 
+oyster mushroom #424446
+black oyster #C3C5C7
+perfect pear #929139
+nugget gold #CB952B 
+*/
+
+@font-face {
+  font-family: "Le Jeune Stencil";
+  src: url("../src/fonts/LeJeuneDeck-StencilRegular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Broetown Signature";
+  src: url("../src//fonts/Broetown\ Signature.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../src/fonts/Futura\ Light.otf") format("truetype");
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-coming {
   text-align: center;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Futura";
+  max-width: 90vw;
+  letter-spacing: 0.1em;
+  color: #C3C5C7;
+  font-size: 80px;
+  animation: animation 5s infinite linear;
+  text-shadow:
+    3px 3px 5px rgba(0, 0, 0, 0.5),
+    -2px -2px 2px rgba(255, 255, 255, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.letters-menu {
+  margin-top: -10%;
+  margin-bottom: -5%;
+  padding: 10%;
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 768px) {
+  .letters-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10%;
+    background-color: white;
+  }
+
+  .menu-coming {
+    font-size: 50px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-813 {
+  background-color: white;
+  max-width: 100%;
+  margin-bottom: -20px;
 }

@@ -1,0 +1,56 @@
+/* 
+oyster mushroom #424446
+black oyster #C3C5C7
+perfect pear #929139
+nugget gold #CB952B 
+*/
+
+
+:root {
+    --primary: #424446;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Le Jeune Stencil";
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: #C3C5C7;
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #424446;
+    padding: 8px 20px;
+    border: 1.5px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+
+.btn--outline:hover {
+    border: 1.5px solid #C3C5C7;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #C3C5C7;
+    color: #424446;
+    transition: 250ms;
+}

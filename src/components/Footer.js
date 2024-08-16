@@ -24,7 +24,7 @@ function Footer() {
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
-                        <Link to='/' className='social-logo'>
+                        <Link to='https://ochotrece.restaurant/' className='social-logo'>
                             <img className='logo' src={logo} alt='logo' />
                         </Link>
                     </div>
@@ -37,23 +37,24 @@ function Footer() {
                         </Link>
                     </small> */}
                     <div className='social-icons'>
+                        <small className='follow'>follow us!</small>
                         <Link
+                            className='social-icon-link instagram'
+                            to='https://www.instagram.com/ochotrece.restaurant'
+                            target='_blank'
+                            aria-label='Instagram'
+                        >
+                            <i className='fab fa-instagram' />
+                        </Link>
+                        {/* <Link
                             className='social-icon-link facebook'
                             to='/'
                             target='_blank'
                             aria-label='Facebook'
                         >
                             <i className='fab fa-facebook-f' />
-                        </Link>
-                        <Link
-                            className='social-icon-link instagram'
-                            to='/'
-                            target='_blank'
-                            aria-label='Instagram'
-                        >
-                            <i className='fab fa-instagram' />
-                        </Link>
-                        <Link
+                        </Link> */}
+                        {/* <Link
                             className='social-icon-link youtube'
                             to='/'
                             target='_blank'
@@ -76,7 +77,7 @@ function Footer() {
                             aria-label='LinkedIn'
                         >
                             <i className='fab fa-linkedin' />
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </section>

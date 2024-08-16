@@ -62,9 +62,16 @@
 }
 
 /* Social Icons */
+.follow {
+    font-family: "futura";
+    color: #C3C5C7;
+    text-decoration: none;
+}
+
 .social-icon-link {
     color: #C3C5C7;
     font-size: 24px;
+    margin-left: 20px;
 }
 
 .social-media {
@@ -74,7 +81,7 @@
 
 .social-media-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     width: 100%;
     max-width: 100%;
@@ -83,7 +90,8 @@
 
 .social-icons {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     width: 240px;
 }

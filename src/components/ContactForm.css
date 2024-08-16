@@ -1,61 +1,154 @@
-/* 
-oyster mushroom #424446
-black oyster #C3C5C7
-perfect pear #929139
-nugget gold #CB952B 
-*/
+.total-container {
+    background-color: #C3C5C7;
+    margin-top: -80px;
+}
 
-.contact-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.tittle-container h1 {
+    font-family: "Le Jeune Stencil";
+    letter-spacing: 0.1em;
+    justify-content: center;
     text-align: center;
-    background-color: #424446;
-    padding-top: 70px;
-    padding-bottom: 160px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: -90px;
+    padding-top: 90px;
+    font-size: 50px;
 }
 
-.contact-address h3,
-.contact-phone h3,
-.contact-mail h3 {
+.contact-form {
+    width: 100%;
+    padding: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-container h2 {
+    font-family: "Le Jeune Stencil";
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"],
+.contact-form textarea {
     font-family: "Futura";
     letter-spacing: 0.1em;
-    color: #C3C5C7;
-    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
 }
 
-.contact-address p,
-.contact-phone p,
-.contact-mail p {
+.contact-form textarea {
+    height: 100px;
+}
+
+/* b u t t o n */
+.contact-form input[type="submit"] {
     font-family: "Futura";
     letter-spacing: 0.1em;
-    color: #C3C5C7;
+    width: 100%;
+    padding: 20px;
+    background-color: #424446;
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
 }
 
-.contact-address a,
-.contact-phone a,
-.contact-mail a {
-    text-decoration: none;
+.contact-form input[type="submit"]:hover {
+    background-color: #1d1e1f;
 }
 
-.contact-address i,
-.contact-phone i,
-.contact-mail i {
-    color: #C3C5C7;
+/* e n d   b u t t o n */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
 }
 
+.working-hours {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    padding: 40px;
+    margin-bottom: 40px;
+}
 
+.working-hours p {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/*    m o b i l e   */
 @media (max-width: 768px) {
-    .contact-info {
+    .contact-container {
         display: block;
     }
 
-    .contact-phone {
-        padding-top: 60px;
-        padding-bottom: 60px;
+    .working-hours {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        text-align: center;
     }
 
+    .contact-form {
+        padding-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .success-message {
+        top: 50px;
+        font-size: 20px;
+        width: 100%;
+        right: 0;
+        left: 0;
+        position: 0;
+    }
 }
+
+/*    m o b i l e   */
+
+
+.success-message {
+    font-family: "Futura";
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    position: fixed;
+    top: 200px;
+    right: 50px;
+    background-color: #424446;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    animation: fadeInOut ease-in-out;
+}
+
+@keyframes fadeInOut {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*   s u c c e s s  m e s s a g e   */

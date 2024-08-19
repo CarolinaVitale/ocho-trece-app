@@ -20,8 +20,11 @@ nugget gold #CB952B
 }
 
 .btn--primary {
-    background-color: var(--primary);
+    background-color: transparent;
     color: #C3C5C7;
+    padding: 8px 20px;
+    border: 1.5px solid #C3C5C7;
+    transition: all 0.3s ease-out;
 }
 
 .btn--outline {

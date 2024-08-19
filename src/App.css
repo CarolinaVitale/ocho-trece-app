@@ -23,10 +23,15 @@ nugget gold #CB952B
   font-style: normal;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .menu-coming {

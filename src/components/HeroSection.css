@@ -53,26 +53,6 @@
     }
 }
 
-.hero-container>p {
-    margin-top: 8px;
-    color: #C3C5C7;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-        'Lucida Sans', Arial, sans-serif;
-}
-
-.hero-btns {
-    margin-top: 32px;
-}
-
-.hero-btns .btn {
-    margin: 6px;
-}
-
-.fa-play-circle {
-    margin-left: 4px;
-}
-
 @media screen and (max-width: 960px) {
     .hero-container>h1 {
         font-size: 80px;
@@ -88,28 +68,15 @@
         margin-bottom: 30px;
     }
 
-    .hero-container>p {
-        font-size: 30px;
-    }
-
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
-    }
-
-    .btn {
-        width: 100%;
-    }
-
     .logo-hero {
-        margin-top: 10px;
+            top: 120vh;
     }
 }
 
 .logo-hero {
     width: 10%;
     position: absolute;
-    top: 110%;
+    top: 110vh;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;

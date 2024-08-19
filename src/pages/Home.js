@@ -12,15 +12,12 @@ function Home() {
     return (
         <>
             <HeroSection />
-            <div style={{ paddingTop: '100px', paddingBottom: '100px', backgroundColor: '#f6f4f4' }}>
-                <ChefAnimation
-                    image={chefPhoto}
-                    text='a taste of innovation that tampa bay deserves'
-                    paragraph="At Ocho Trece, every dish tells the story of our chef, Miguel Bravo, a culinary artist whose passion knows no bounds. Cooking daily with unwavering dedication, Chef Bravo is constantly on the quest for new flavors, elevating his creations to new heights with each innovative twist."
-                    paragraph2="Trained at the prestigious Le Cordon Bleu in Lima, Chef Bravo graduated with the esteemed Cordon Bleu mention, a testament to his exceptional skills and talent. Yet, beyond his accolades, it is his love for cooking that truly sets him apart. For Chef Bravo, every plate is more than just food—it's an expression of his passion, an art form that he shares with every guest who dines with us."
-                    button='get to know ocho trece'
-                />
-            </div>
+            <ChefAnimation
+                image={chefPhoto}
+                text='a taste of innovation that tampa bay deserves'
+                paragraph="At Ocho Trece, every dish tells the story of our chef, Miguel Bravo, a culinary artist whose passion knows no bounds. Cooking daily with unwavering dedication, Chef Bravo is constantly on the quest for new flavors, elevating his creations to new heights with each innovative twist."
+                paragraph2="Trained at the prestigious Le Cordon Bleu in Lima, Chef Bravo graduated with the esteemed Cordon Bleu mention, a testament to his exceptional skills and talent. Yet, beyond his accolades, it is his love for cooking that truly sets him apart. For Chef Bravo, every plate is more than just food—it's an expression of his passion, an art form that he shares with every guest who dines with us."
+                button='get to know ocho trece' />
 
             <ImageAnimation
                 image={burger}
@@ -28,14 +25,10 @@ function Home() {
                 paragraph="We believe that when someone finds their true passion, it makes all the difference in everything they do. At Ocho Trece, that passion is evident in every bite, every aroma, and every presentation that graces your table. We are honored to bring Chef Bravo's talent and vision to Tampa Bay, offering a dining experience that this city truly deserves."
                 button='savor the flavors' />
 
-            <div style={{ paddingTop: '100px', backgroundColor: '#f6f4f4' }} >
-                <Animation
-                    imageSrc={pic}
-                    text='elevate your event with our catering service!'
-                    paragraph='discover our exquisite selection of gastronomic options for all types of events. from weddings to corporate gatherings, our personalized catering service ensures an exceptional culinary experience that will delight your guests.'
-                />
-            </div>
-
+            <Animation
+                imageSrc={pic}
+                text='elevate your event with our catering service!'
+                paragraph='discover our exquisite selection of gastronomic options for all types of events. from weddings to corporate gatherings, our personalized catering service ensures an exceptional culinary experience that will delight your guests.' />
         </>
     );
 }

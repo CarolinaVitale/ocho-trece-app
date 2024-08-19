@@ -1,5 +1,5 @@
 .hero-container {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -32,11 +32,12 @@
 }
 
 .logo-hero {
-    width: 10%;
+    width: auto;
+    height: 150px;
     position: absolute;
-    top: 110vh;
+    bottom: -75px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     z-index: 1;
 }
 
@@ -78,6 +79,7 @@
     }
 
     .logo-hero {
-        top: 120vh;
+        height: 70px;
+        bottom: -45px;
     }
 }

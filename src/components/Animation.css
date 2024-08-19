@@ -5,6 +5,12 @@ perfect pear #929139
 nugget gold #CB952B 
 */
 
+.margin-animation-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f6f4f4;
+}
+
 .scroll-animation-container {
     background-color: #f6f4f4;
     display: flex;
@@ -13,7 +19,6 @@ nugget gold #CB952B
 }
 
 .text-container {
-    padding: 2%;
     text-align: center;
     width: 50%;
     font-family: "Le Jeune Stencil";
@@ -21,18 +26,16 @@ nugget gold #CB952B
 }
 
 .text-container p {
-    margin-top: 2%;
-    margin-bottom: 2%;
     font-family: "futura";
     letter-spacing: 0.1em;
     color: #424446;
 }
 
 .image-container {
-    padding: 2%;
     display: flex;
     justify-content: center;
     width: 50%;
+    margin: 30px;
 }
 
 .image-container img {
@@ -40,25 +43,39 @@ nugget gold #CB952B
     width: 100%;
 }
 
-.text {
-    padding-top: 5%;
-    padding-bottom: 5%;
+.text-tittle {
+    padding-bottom: 50px;
 }
 
+.text-button {
+    padding-top: 50px;
+}
+
+
 @media screen and (max-width: 960px) {
+    .margin-animation-container {
+        padding: 50px 0;
+    }
+
     .scroll-animation-container {
         display: flex;
         flex-direction: column;
+        margin: 20px;
     }
 
     .text-container {
         width: 100%;
-        padding-top: 20%;
-        padding-bottom: 20%;
     }
 
     .image-container {
         width: 100%;
-        padding-bottom: 20%;
+    }
+
+    .text-button {
+        padding: 50px 0;
+    }
+
+    .text-tittle {
+        padding: 30px 0;
     }
 }

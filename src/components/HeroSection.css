@@ -80,6 +80,6 @@
 
     .logo-hero {
         height: 70px;
-        bottom: calc(90vh - 35px);
+        bottom: calc(90vh + 35px);
     }
 }

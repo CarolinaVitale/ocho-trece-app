@@ -35,7 +35,7 @@
     width: auto;
     height: 150px;
     position: absolute;
-    bottom: -75px;
+    bottom: calc(0vh - 75px);
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -81,5 +81,6 @@
     .logo-hero {
         height: 70px;
         bottom: calc(0vh - 110px);
+        /* 110 = 75px que mide el logo + 35px que sería la mitad de 75px */
     }
 }

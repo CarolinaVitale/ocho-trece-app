@@ -25,12 +25,19 @@ nugget gold #CB952B
 
 body {
   overflow-x: hidden;
+  text-transform: lowercase;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  text-transform: lowercase;
 }
 
 .menu-coming {

@@ -64,9 +64,9 @@ export const ContactUs = () => {
                 >
                     <h2>working hours</h2>
                     <br />
-                    <p>monday - friday: 9am - 5pm</p>
-                    <p>saturday: 10am - 3pm</p>
-                    <p>sunday: closed</p>
+                    <p>Monday - Friday: 9am - 5pm</p>
+                    <p>Saturday: 10am - 3pm</p>
+                    <p>Sunday: closed</p>
                 </motion.div>
 
                 <motion.div
@@ -100,7 +100,7 @@ export const ContactUs = () => {
 
                 {showSuccessMessage && (
                     <div className="success-message">
-                        your message has been sent successfully!
+                        Your message has been sent successfully!
                     </div>
                 )}
 

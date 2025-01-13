@@ -24,7 +24,7 @@ function ContactInfo() {
                     <i className="fa-solid fa-location-dot fa-3x"></i>
                     <h3>address</h3>
                     <a rel="noreferrer" target="_blank" href="https://maps.app.goo.gl/eXcAhXj6Hzz11rcB6">
-                        <p>800w kennedy boulevard, tampa, fl. 33606</p>
+                        <p>800w Kennedy Boulevard, Tampa, Fl. 33606</p>
                     </a>
                 </div>
             </motion.div>
@@ -38,7 +38,7 @@ function ContactInfo() {
             >
                 <div className='contact-phone'>
                     <i className="fa-solid fa-phone fa-3x"></i>
-                    <h3>phone</h3>
+                    <h3>Phone</h3>
                     <a href="tel:+18133745363">
                         <p>813-374-5363</p>
                     </a>
@@ -54,7 +54,7 @@ function ContactInfo() {
             >
                 <div className='contact-mail'>
                     <i className="fa-solid fa-envelope fa-3x"></i>
-                    <h3>mail</h3>
+                    <h3>e-Mail</h3>
                     <a href="mailto:info@ochotrece.restaurant?subject=Email%20Subject&body=Hi%20I'd%20like%20to%20find%20out%20more%20about">
                         <p>info@ochotrece.restaurant</p>
                     </a>

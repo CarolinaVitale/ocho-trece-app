@@ -156,7 +156,7 @@ export const CateringForm = () => {
 
                 {showSuccessMessage && (
                     <div className="catering-success-message">
-                        thank you for contacting us regarding your event. our staff will gladly contact you shorty to finalize any details and provide you with a quote.
+                        Thank you for contacting us regarding your event. Our staff will gladly contact you shorty to finalize any details and provide you with a quote.
                     </div>
                 )}
             </div>

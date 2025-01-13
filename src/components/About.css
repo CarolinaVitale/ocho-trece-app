@@ -10,7 +10,6 @@
     margin-bottom: 30px;
     text-align: center;
     letter-spacing: 0.1em;
-    text-transform: lowercase;
 }
 
 .about-form-p {
@@ -18,7 +17,6 @@
     margin-bottom: 30px;
     text-align: justify;
     letter-spacing: 0.1em;
-    text-transform: lowercase;
     line-height: 1.5;
 }
 

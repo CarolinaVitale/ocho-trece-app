@@ -25,7 +25,6 @@ nugget gold #CB952B
 
 body {
   overflow-x: hidden;
-  text-transform: lowercase;
 }
 
 * {
@@ -37,7 +36,6 @@ body {
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  text-transform: lowercase;
 }
 
 .menu-coming {

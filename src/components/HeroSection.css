@@ -19,13 +19,17 @@
 }
 
 .btn-delivery {
-    padding: 10px 20px;
+    padding: 10px 40px;
     text-decoration: none;
-    color: #1F1F1D;
-    background-color: #D19007;
+    color: #F6EFD9;
+    background-color: #8E8D20;
     font-family: "Futura Bold";
-    font-size: 1rem;
+    font-size: 2rem;
     border: none;
+}
+
+.btn-delivery:hover {
+    background-color: #1F1F1D;
 }
 
 .to-go {
@@ -42,9 +46,6 @@
     font-size: 110px;
     margin-top: -100px;
     animation: animation 5s infinite linear;
-    /* text-shadow:
-        3px 3px 5px rgba(0, 0, 0, 0.5),
-        -2px -2px 2px rgba(255, 255, 255, 0.5); */
 }
 
 .logo-hero {
@@ -96,7 +97,7 @@
 
     .logo-hero {
         height: 50px;
-        bottom: calc(0vh - 235px);
+        bottom: calc(0vh - 268px);
         /* 110 = 75px que mide el logo + 35px que sería la mitad de 75px */
     }
 
@@ -192,6 +193,6 @@
     }
 
     .partner-secondary img {
-        height: 40px;
+        height: 50px;
     }
 }

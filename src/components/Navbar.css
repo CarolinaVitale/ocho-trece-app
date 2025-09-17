@@ -108,7 +108,7 @@ nugget gold #CB952B
     }
 
     .nav-menu.active {
-        background: linear-gradient(90deg, #f6f4f4 0%, #e0e2e4 100%);
+        background: linear-gradient(90deg, #F6EFD9 0%, #d6ceb4 100%);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -148,7 +148,7 @@ nugget gold #CB952B
     .fa-times {
         color: #424446;
         font-size: 2rem;
-        margin-top: 0.4rem;
+        margin-top: 0.1rem;
     }
 
     .nav-links-mobile {

@@ -24,7 +24,7 @@ function HeroSection() {
                     <h3 id="delivery-title" className="delivery-title">
                         PLACE YOUR ORDER
                     </h3>
-
+<br />
                     {/* Toast destacado */}
                     <a
                         className="partner-main"

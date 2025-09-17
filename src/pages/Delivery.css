@@ -12,9 +12,12 @@
 }
 
 @media screen and (max-width: 768px) {
-.delivery-menu{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+    .delivery-menu {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 
+    .delivery-menu-pic {
+        margin-bottom: 50px;
+    }
 }

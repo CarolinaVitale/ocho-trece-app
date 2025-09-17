@@ -87,8 +87,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
-
     .hero-container>h1 {
         text-align: center;
         font-size: 70px;
@@ -98,7 +96,7 @@
 
     .logo-hero {
         height: 50px;
-        bottom: calc(0vh - 270px);
+        bottom: calc(0vh - 235px);
         /* 110 = 75px que mide el logo + 35px que sería la mitad de 75px */
     }
 

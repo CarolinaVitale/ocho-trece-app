@@ -10,6 +10,7 @@ import Catering from '../src/pages/Catering';
 import Menu from '../src/pages/Menu';
 import Footer from '../src/components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import DeliveryMenu from './pages/Delivery';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/catering" element={<Catering />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/delivery-menu" element={<DeliveryMenu />} />
         </Routes>
         <Footer />
       </Router>

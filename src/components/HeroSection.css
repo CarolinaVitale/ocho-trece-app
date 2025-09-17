@@ -1,22 +1,38 @@
 .hero-container {
-    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     object-fit: contain;
+    background-color: #F6EFD9;
+    transform: translateY(-80px);
+    margin-bottom: -80px;
+    padding-bottom: 100px;
 }
 
 .home-img {
-    top: 0;
-    left: 0;
+    padding-top: 150px;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
+    width: 50%;
+    background-color: #F6EFD9;
 }
+
+.btn-delivery {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #1F1F1D;
+    background-color: #D19007;
+    font-family: "Futura Bold";
+    font-size: 1rem;
+    border: none;
+}
+
+.to-go {
+    margin-top: 20px;
+    width: 50%;
+}
+
 
 .hero-container>h1 {
     font-family: "Le Jeune Stencil";
@@ -35,7 +51,7 @@
     width: auto;
     height: 150px;
     position: absolute;
-    bottom: calc(0vh - 75px);
+    bottom: calc(0vh - 540px);
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -71,16 +87,113 @@
 }
 
 @media screen and (max-width: 768px) {
+
+
     .hero-container>h1 {
         text-align: center;
         font-size: 70px;
-        margin-top: -70px;
-        margin-bottom: 30px;
+        padding-bottom: 350px;
+        transform: translateY(200px);
     }
 
     .logo-hero {
-        height: 70px;
-        bottom: calc(0vh - 110px);
+        height: 50px;
+        bottom: calc(0vh - 270px);
         /* 110 = 75px que mide el logo + 35px que sería la mitad de 75px */
+    }
+
+    .home-img {
+        padding-top: 100px;
+        object-fit: cover;
+        width: 100%;
+        background-color: #F6EFD9;
+    }
+
+    .to-go {
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+
+.delivery-cta {
+    width: 100%;
+    max-width: 520px;
+    margin: 24px auto 0;
+    text-align: center;
+}
+
+.delivery-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: .02em;
+    margin-bottom: 12px;
+    color: #1F1F1D;
+    font-family: "Futura Bold";
+}
+
+/* Toast destacado */
+.partner-main {
+    display: inline-block;
+    padding: 10px 12px;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .12);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.partner-main:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, .16);
+}
+
+.partner-main img {
+    display: block;
+    height: 68px;
+    width: auto;
+}
+
+/* Separador OR */
+.or {
+    margin: 14px 0 8px;
+    font-weight: 700;
+    letter-spacing: .12em;
+    color: #1F1F1D;
+    font-family: "Futura Bold";
+}
+
+/* Uber Eats + DoorDash (más pequeños) */
+.partners-secondary {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.partner-secondary {
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .10);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.partner-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, .15);
+}
+
+.partner-secondary img {
+    display: block;
+    height: 46px;
+    width: auto;
+}
+
+/* Responsive */
+@media (max-width: 620px) {
+    .partner-main img {
+        height: 50px;
+    }
+
+    .partner-secondary img {
+        height: 40px;
     }
 }

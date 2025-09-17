@@ -23,6 +23,11 @@ nugget gold #CB952B
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Futura Bold";
+  src: url("../src/fonts/Futura\ Bold.otf") format("truetype");
+  font-style: normal;
+}
 body {
   overflow-x: hidden;
 }
